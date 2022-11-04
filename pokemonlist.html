@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <script>
+
+  let pokemonList = [
+    '파이리',
+    '고오스',
+    '또가스',
+    '피죤투',
+    '야도란',
+    '버터풀',
+    '꼬부기',
+    '피카츄',
+    3,
+    5,
+    6,
+  ];
+
+  for( let i = 0; i < pokemonList.length; i++) {
+    if (pokemonList[i] === '피카츄') {
+      console.log(i +1 + '번째에 있습니다.');
+    } else if (typeof pokemonList[i] === 'number') {
+      console.log(pokemonList[i])
+    } else {
+      console.log('여기에는 피카츄가 없습니다.');
+    };
+  };
+
+    console.log(pokemonList);
+  </script>
+</body>
+
+</html>
